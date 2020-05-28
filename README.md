@@ -28,6 +28,8 @@ This means that we need to edit our code in a way that...
 - Tests our changes for unexpected conflicts or bugs;
 - Documents our changes clearly and thoroughly, should we need to troubleshoot an update, or in the case of catastrophic mistakes, return to the prior versions; and
 
+<br>
+
 ### But... why?
 
 <details><summary>This is why.</summary>
@@ -175,6 +177,8 @@ That is so fetch!
 
 <details><summary>Self Guided Learning</summary>
 
+<br>
+
 Let's keep going. Try to remember the commands- no worries if you can't, just refer to documentation!
 
 #### Add Regina George
@@ -239,4 +243,4 @@ Let's go back to our Mean Girls directory, and in our terminal we can remove it 
 
 This has all taken place on your computer! What happens if your hard drive fails?
 
-Let's move on to Part 2: [](GitHub Intro Lesson).
+Let's move on to [Part 2: The GitHub Lesson](https://git.generalassemb.ly/sei-nyc-constellations/github-lesson).
