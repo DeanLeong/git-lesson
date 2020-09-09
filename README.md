@@ -247,4 +247,4 @@ Let's go back to our Mean Girls directory, and in our terminal we can remove it 
 
 This has all taken place on your computer! What happens if your hard drive fails?
 
-Let's move on to [Part 2: The GitHub Lesson](https://git.generalassemb.ly/sei-nyc-constellations/github-lesson).
+Let's move on to [Part 2: The GitHub Lesson](https://git.generalassemb.ly/sei-nyc-phoenix/github-lesson).
