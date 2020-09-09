@@ -36,8 +36,6 @@ This means that we need to edit our code in a way that...
 
 ![Alt Text](real-version-control.png)
 
-_... sarcasm._
-
 </details>
 
 There are a lot of advantages to version control, but namely:
@@ -48,7 +46,11 @@ There are a lot of advantages to version control, but namely:
 
 Let's put this knowledge to use.
 
-![Alt Text](https://media.giphy.com/media/3o7aTBRgcwex7riR2M/giphy.gif)
+<p align="center">
+  <a href="#">
+    <img src="https://media1.giphy.com/media/l0Hlx6jKwLPAd4PAc/source.gif" alt="The Belchers" />
+  </a>
+</p>
 
 ***
 
@@ -56,8 +58,8 @@ Let's put this knowledge to use.
 
 #### First, Create A Fresh Repo
 
-- Make a directory, titled `mean-girls`.
-- Drop into the mean-girls directory.
+- Make a directory, titled `bobs`.
+- Drop into the bobs directory.
 - Create a text file that we can version control with git, titled `cady`.
 
 <details><summary>Reveal Commands</summary>
@@ -244,6 +246,12 @@ Let's go back to our Mean Girls directory, and in our terminal we can remove it 
 <br>
 
 ### This is all great, but one problem...
+
+<p align="center">
+  <a href="#">
+    <img src="https://media2.giphy.com/media/3mJEuZtH6bcLpenJ3r/source.gif" alt="Tina" />
+  </a>
+</p>
 
 This has all taken place on your computer! What happens if your hard drive fails?
 
