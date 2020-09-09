@@ -238,7 +238,29 @@ Then save the file.
 - NO commit is too small.
 - NEVER, NEVER, NEVER mess with a git history. It is the cardinal sin of git. (`git reset` is safe, not affecting your history. For the purposes of this course, **do not use `git revert` or `git rebase`** on important code, like your projects.)
 
+### This is all great, but one problem...
+
 <br>
+
+<p align="center">
+  <a href="#">
+    <img src="https://media2.giphy.com/media/3mJEuZtH6bcLpenJ3r/source.gif" alt="Tina" width="550px" />
+  </a>
+</p>
+
+<br>
+
+This has all taken place on your computer! What happens if your hard drive fails?
+
+Let's move on to [Part 2: The GitHub Lesson](https://git.generalassemb.ly/sei-nyc-phoenix/github-lesson).
+
+<br>
+
+<p align="center">
+  <a href="#">
+    <img src="https://i.imgur.com/FTn4n1F.gif" alt="Tina" width="550px" />
+  </a>
+</p>
 
 ### Want more practice?
 
@@ -280,26 +302,3 @@ Unstage the file with `git reset <"filename">`, then go back to your Bob's Burge
 
 <br>
 
-### This is all great, but one problem...
-
-<br>
-
-<p align="center">
-  <a href="#">
-    <img src="https://media2.giphy.com/media/3mJEuZtH6bcLpenJ3r/source.gif" alt="Tina" width="550px" />
-  </a>
-</p>
-
-<br>
-
-This has all taken place on your computer! What happens if your hard drive fails?
-
-Let's move on to [Part 2: The GitHub Lesson](https://git.generalassemb.ly/sei-nyc-phoenix/github-lesson).
-
-<br>
-
-<p align="center">
-  <a href="#">
-    <img src="https://i.imgur.com/FTn4n1F.gif" alt="Tina" width="550px" />
-  </a>
-</p>
