@@ -171,6 +171,32 @@ That is so fetch!
 1. Save the file.
 1. Check the git status of the of the `mean-girls` directory. _What happened?_
 
+
+
+<br>
+
+***
+
+### Review
+
+#### Git Workflow Checklist
+
+- [ ] `git status` to confirm clean working directory
+- [ ] make changes to `<file-name>`
+- [ ] `git add <file-name>`
+- [ ] `git status` (to confirm modified files have been staged)
+- [ ] `git commit`
+
+<br>
+
+#### Git Best Practices
+
+- ALWAYS add files explicitly, if you can. If you have multiple files, use full paths to refer to each. Example: `git add foo/bar.md baz/qux.js`.
+- ALWAYS use a commit message `git commit -m "an example commit message"`.
+- ALWAYS use `git status` before any other command.
+- NO commit is too small.
+- NEVER, NEVER, NEVER mess with a git history. It is the cardinal sin of git. (`git reset` is safe, not affecting your history. For the purposes of this course, **do not use `git revert` or `git rebase`** on important code, like your projects.)
+
 <br>
 
 ### Want more practice? (You'll get to delete Regina George...)
@@ -212,30 +238,6 @@ OR Delete the last thing we wrote in our `mean-girls` directory.
 Let's go back to our Mean Girls directory, and in our terminal we can remove it using `rm -rf regina.txt`.
 
 </details>
-
-<br>
-
-***
-
-### Review
-
-#### Git Workflow Checklist
-
-- [ ] `git status` to confirm clean working directory
-- [ ] make changes to `<file-name>`
-- [ ] `git add <file-name>`
-- [ ] `git status` (to confirm modified files have been staged)
-- [ ] `git commit`
-
-<br>
-
-#### Git Best Practices
-
-- ALWAYS add files explicitly. If you have multiple files, use full paths to refer to each. Example: `git add foo/bar.md baz/qux.js`.
-- ALWAYS use a commit message `git commit -m "an example commit message"`.
-- ALWAYS use `git status` before any other command.
-- NO commit is too small.
-- NEVER, NEVER, NEVER mess with a git history. It is the cardinal sin of git. (`git reset` is safe, not affecting your history. For the purposes of this course, **do not use `git revert` or `git rebase`** on important code, like your projects.)
 
 <br>
 
