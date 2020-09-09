@@ -106,6 +106,8 @@ Of course, `git status` didn't help– this isn't a git repo yet.
 1. `git init`
 1. `l`
 
+What changed?
+
 </details>
 
 <br>
