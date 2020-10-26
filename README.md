@@ -7,7 +7,6 @@
 By the end of this lesson, you will be able to:
 
 -   Define version control and identify what problems it solves for developers
--   Define a repository (aka repo) and identify the parts of a repo
 -   Differentiate between a local repository and a remote repository
 -   Utilize git versioning to track changes to your code.
 -   Initialize a git repository.
@@ -291,7 +290,7 @@ Then save the file.
 
 This has all taken place on your computer! What happens if your hard drive fails?
 
-Let's move on to [Part 2: The GitHub Lesson](https://git.generalassemb.ly/sei-nyc-phoenix/github-lesson).
+Let's move on to [Part 2: The GitHub Lesson](https://git.generalassemb.ly/sei-nyc-garnet/github-lesson).
 
 <br>
 
