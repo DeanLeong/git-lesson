@@ -7,7 +7,6 @@
 By the end of this lesson, you will be able to:
 
 -   Define version control and identify what problems it solves for developers
--   Differentiate between a local repository and a remote repository
 -   Utilize git versioning to track changes to your code.
 -   Initialize a git repository.
 -   Stage and commit new and changed files in a git repository.
