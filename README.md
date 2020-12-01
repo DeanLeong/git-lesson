@@ -289,7 +289,7 @@ Then save the file.
 
 This has all taken place on your computer! What happens if your hard drive fails?
 
-Let's move on to [Part 2: The GitHub Lesson](https://git.generalassemb.ly/sei-nyc-garnet/github-lesson).
+Let's move on to [Part 2: The GitHub Lesson](https://git.generalassemb.ly/sei-nyc-new-cohort-name/github-lesson).
 
 <br>
 
