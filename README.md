@@ -4,12 +4,13 @@
 
 ### Lesson Objectives
 
-By the end of this lesson, you will be comfortable with:
+By the end of this lesson, you will be able to:
 
-- Utilizing git versioning to track changes to your code.
-- Initializing a git repository.
-- Staging and committing new and changed files in a git repository.
-- Removing files from the staging area.
+-   Define version control and identify what problems it solves for developers
+-   Utilize git versioning to track changes to your code.
+-   Initialize a git repository.
+-   Stage and commit new and changed files in a git repository.
+-   Remove files from the staging area.
 
 Ready to get started?
 
@@ -27,14 +28,29 @@ Git, at its core, is a _version control system_.
 
 _Version control_ is the systematic process of tracking and storing multiple versions of a single project, allowing developers to merge and update projects in a collaborative (and safe) way.
 
+### Think, Pair, Share
+
+> 5 min exercise, 5 min review
+
+Turn to the person next to you and discuss the questions below. After 5 minutes,
+we'll go over responses as a class.
+
+-   Why might we want to have different versions of a file?
+-   What strategies have you used to keep track of changes you've made to a
+    document or file before? If you haven't, brainstorm ways you might keep track
+    of different versions of a file/document.
+-   How well did that strategy work? Was it painful? Can you see any limitations
+    or problems associated with that strategy?
+-   How might that approach work in a team environment?
+
 As developers, our code is our livelihood. It's vital that we backup, edit, and contribute to code in a way that is safe, effective, and efficient.
 
 This means that we need to edit our code in a way that...
 
-- Doesn't break our live app (often referred to as "cowboy coding");
-- Enables us to make changes in small, block-sized chunks.
-- Tests our changes for unexpected conflicts or bugs;
-- Documents our changes clearly and thoroughly, should we need to troubleshoot an update, or in the case of catastrophic mistakes, return to the prior versions; and
+-   Doesn't break our live app (often referred to as "cowboy coding");
+-   Enables us to make changes in small, block-sized chunks.
+-   Tests our changes for unexpected conflicts or bugs;
+-   Documents our changes clearly and thoroughly, should we need to troubleshoot an update, or in the case of catastrophic mistakes, return to the prior versions; and
 
 <br>
 
@@ -48,9 +64,9 @@ This means that we need to edit our code in a way that...
 
 There are a lot of advantages to version control, but namely:
 
-- It decentralizes your code, making it easy to keep backups.
-- It enables collaboration on complex code projects.
-- it gives us the freedom to experiment and try new things without messing up the code base.
+-   It decentralizes your code, making it easy to keep backups.
+-   It enables collaboration on complex code projects.
+-   it gives us the freedom to experiment and try new things without messing up the code base.
 
 Ready to put this knowledge to use?
 
@@ -62,15 +78,36 @@ Ready to put this knowledge to use?
   </a>
 </p>
 
-***
+## How To Work with Git
+
+The basics of working with Git could be somewhat familiar to you. Git works
+inside of a **repository**: a folder where Git is watching and tracking changes
+to files. We can turn a directory into a repository by running `git init`.
+
+When we want to record or **commit** some changes we've made and 'save our
+progress so far, we do so by **staging** those changes (with `git add`) and then
+**committing** them (with `git commit`).
+
+If we want to see the current state of our repository, like what files have been
+changed and may need to be committed, we can do so by checking the repository's
+status (with `git status`).
+
+| Command      | Description                                                     |
+| ------------ | --------------------------------------------------------------- |
+| `git init`   | Initialize a repository; turn a directory into a git repo       |
+| `git status` | check the state of our repository                               |
+| `git add`    | _stage_ changes to be committed                                 |
+| `git commit` | save changes to the repo's history (i.e. make them 'permanent') |
+
+---
 
 ### Code Along!
 
 #### First, Create A Fresh Repo
 
-- Make a directory, titled `bobs-burgers`.
-- Drop into the bobs-burgers directory.
-- Create a text file that we can version control with git, titled `bob`.
+-   Make a directory, titled `bobs-burgers`.
+-   Drop into the bobs-burgers directory.
+-   Create a text file that we can version control with git, titled `bob`.
 
 <details><summary>Reveal Commands</summary>
 
@@ -96,9 +133,9 @@ Ready to put this knowledge to use?
 
 (It's good to get in the habit...)
 
-- Check your file path, if need be.
-- Check which files you have in your current directory.
-- Check the git status of your repository.
+-   Check your file path, if need be.
+-   Check which files you have in your current directory.
+-   Check the git status of your repository.
 
 <details><summary>Reveal Commands</summary>
 
@@ -116,8 +153,8 @@ _What happened?_
 
 Of course, `git status` didn't help– this isn't a git repo yet.
 
-- Initialize a git repo in this folder.
-- Check which files are in the current directory again.
+-   Initialize a git repo in this folder.
+-   Check which files are in the current directory again.
 
 <details><summary>Reveal Commands</summary>
 
@@ -132,9 +169,9 @@ _What changed?_
 
 #### Finally, Let's Control Some Versions
 
-- Add your `bob` file to your **git stage**.
-- Check the git status of your repository again.
-- Commit your staged file to **your working tree**.
+-   Add your `bob` file to your **git stage**.
+-   Check the git status of your repository again.
+-   Commit your staged file to **your working tree**.
 
 One note about commit messages– clear and concise messages are imperative to collaboration. Follow Git commit message convention by using **the present-tense imperative**.
 
@@ -160,7 +197,7 @@ Git confirms that we've committed 1 file... _What else does it show in the messa
 
 <br>
 
-***
+---
 
 ### Staging & Committing
 
@@ -170,7 +207,7 @@ Once a repository is being tracked by git– once it's been **initialized–** a
 
 1. `modified` means that you have changed the file in your working directory and saved it on your hard drive- but that's all.
 1. `staged` means that you have _added_ a modified file– in its current version–
-to be committed in your next commit.
+   to be committed in your next commit.
 1. `committed` means that the data is committed _to the working tree_ **in your local repository**.
 
 Visually, it looks like this:
@@ -183,11 +220,11 @@ Visually, it looks like this:
 
 <br>
 
-***
+---
 
-### Code Along, Part 2
+### You Do, Part 2
 
-#### Let's Create Tina
+#### Create Tina
 
 1. Inside of the `bobs-burgers` directory, create a text file called `tina`.
 2. Open the file with VS Code and copy in the following line:
@@ -216,27 +253,27 @@ Then save the file.
 
 <br>
 
-***
+---
 
 ### Review
 
 #### Git Workflow Checklist
 
-- [ ] `git status` to confirm clean working directory
-- [ ] make changes to `<file-name>`
-- [ ] `git add <file-name>`
-- [ ] `git status` (to confirm modified files have been staged)
-- [ ] `git commit`
+-   [ ] `git status` to confirm clean working directory
+-   [ ] make changes to `<file-name>`
+-   [ ] `git add <file-name>`
+-   [ ] `git status` (to confirm modified files have been staged)
+-   [ ] `git commit`
 
 <br>
 
 #### Git Best Practices
 
-- ALWAYS add files explicitly, if you can. If you have multiple files, use full paths to refer to each. Example: `git add foo/bar.md baz/qux.js`.
-- ALWAYS use a commit message `git commit -m "an example commit message"`.
-- ALWAYS use `git status` before any other command.
-- NO commit is too small.
-- NEVER, NEVER, NEVER mess with a git history. It is the cardinal sin of git. (`git reset` is safe, not affecting your history. For the purposes of this course, **do not use `git revert` or `git rebase`** on important code, like your projects.)
+-   ALWAYS add files explicitly, if you can. If you have multiple files, use full paths to refer to each. Example: `git add foo/bar.md baz/qux.js`.
+-   ALWAYS use a commit message `git commit -m "an example commit message"`.
+-   ALWAYS use `git status` before any other command.
+-   NO commit is too small.
+-   NEVER, NEVER, NEVER mess with a git history. It is the cardinal sin of git. (`git reset` is safe, not affecting your history. For the purposes of this course, **do not use `git revert` or `git rebase`** on important code, like your projects.)
 
 ### This is all great, but one problem...
 
@@ -252,7 +289,7 @@ Then save the file.
 
 This has all taken place on your computer! What happens if your hard drive fails?
 
-Let's move on to [Part 2: The GitHub Lesson](https://git.generalassemb.ly/sei-nyc-phoenix/github-lesson).
+Let's move on to [Part 2: The GitHub Lesson](https://git.generalassemb.ly/sei-nyc-new-cohort-name/github-lesson).
 
 <br>
 
@@ -301,4 +338,3 @@ Unstage the file with `git reset <"filename">`, then go back to your Bob's Burge
 </details>
 
 <br>
-
